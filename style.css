@@ -1,0 +1,26 @@
+* {
+  font-family: "Roboto";
+}
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #020e26;
+  color: #ffffff;
+}
+
+.card {
+  background-image: linear-gradient(45deg, #6f04d9, #d9048e);
+  padding: 32px 48px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.card p {
+  text-align: center;
+  color: #e3e3e3;
+  letter-spacing: 2px;
+}
